@@ -26,4 +26,6 @@ defmodule RumblWeb.UserController do
     |> put_flash(:info, "#{user.name} created!")
     |> redirect(to: Routes.user_path(conn, :index))
   end
+
+
 end
